@@ -1,0 +1,18 @@
+body {
+	background-color: rgba(10, 10, 10, 0.952941); 
+	color: #fff; 
+	font-family: 'Exo 2'; 
+	font-size: 20px;
+	margin: 260px auto;
+}
+
+p {
+	margin-bottom: 1em; 
+	text-align: center;
+}
+
+#logo { 
+	width: 400px; 
+	max-width: 400px; 
+	height: auto;
+}
