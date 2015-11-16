@@ -9,5 +9,5 @@ Item | Omschrijving
 ------------- | -------------
 ControlCenter  | We hebben in deze repository 2 applicaties gestoken die jullie kunnen gebruiken om van start te gaan. Eén op basis van [Spring Boot](http://projects.spring.io/spring-boot) en één op basis van [ExpressJs](http://expressjs.com). Het ControleCenter wordt de webapplicatie die jullie aanspreken vanop afstand.
 IOT Foundation | De [IoT Foundation](https://www.ng.bluemix.net/docs/#services/IoT/index.html) fungeert als message broker.
-Android App | 
-Ollie | 
+Android App | Jullie ontwerpen een Android applicatie die de berichten van de queue leest en instructies doorstuurt naar Ollie via de [Android SDK for Sphero](https://github.com/orbotix/Sphero-Android-SDK)
+Ollie | [Ollie](http://www.sphero.com/ollie) is de beschermer van jullie vault. 
