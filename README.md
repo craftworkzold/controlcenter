@@ -11,3 +11,8 @@ ControlCenter  | We hebben in deze repository 2 applicaties gestoken die jullie 
 IOT Foundation | De [IoT Foundation](https://www.ng.bluemix.net/docs/#services/IoT/index.html) fungeert als message broker.
 Android App | Jullie ontwerpen een Android applicatie die de berichten van de queue leest en instructies doorstuurt naar Ollie via de [Android SDK for Sphero](https://github.com/orbotix/Sphero-Android-SDK)
 Ollie | [Ollie](http://www.sphero.com/ollie) is de beschermer van jullie vault. 
+
+## Challenges
+
+Challenge | Omschrijving
+------------- | -------------
