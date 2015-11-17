@@ -1,18 +1,22 @@
 body {
-	background-color: rgba(10, 10, 10, 0.952941); 
-	color: #fff; 
-	font-family: 'Exo 2'; 
-	font-size: 20px;
-	margin: 260px auto;
+    background-image: url("/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    margin: 260px auto;
 }
 
 p {
-	margin-bottom: 1em; 
-	text-align: center;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
-#logo { 
-	width: 400px; 
-	max-width: 400px; 
-	height: auto;
+#logo {
+    width: 400px;
+    max-width: 400px;
+    height: auto;
 }
