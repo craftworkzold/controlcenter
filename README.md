@@ -1,7 +1,7 @@
 # Hack The Future 2015
-> Het is 2277, 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
+> *Het is 2277, 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
 echter op de loer om jullie vault aan te vallen. Jullie ontwikkelen ControlCenter, een webapplicatie die het mogelijk maakt om vanop 
-afstand de vault in de gaten te houden en te beschermen.
+afstand de vault in de gaten te houden en te beschermen.*
 
 ![HackTheSFuture](HackTheFuture.png)
 
@@ -64,10 +64,14 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
 ## Challenges
 Jullie hebben nu een eerste versie van de webapplicatie naar de cloud gebracht. Nu kunnen jullie starten met het uitvoeren van de challenges. Kies zelf welke challenges jullie proberen uit te voeren en in welke volgorde. 
 
-- Download [Eclipse Mars](http://www.eclipse.org/downloads) en push een wijziging naar Bluemix.
+- Download [Eclipse Mars](http://www.eclipse.org/downloads), importeer jullie project en push een wijziging naar Bluemix.
 
-- Maak met [Android Studio](http://developer.android.com/sdk/index.html) een android toepassing die om 
+- Maak met [Android Studio](http://developer.android.com/sdk/index.html) een android toepassing die Ollie kan besturen adhv de [Android SDK for Sphero](https://github.com/orbotix/Sphero-Android-SDK)
 
-- Installeer Git
+- Bestuur Ollie via ControlCenter dmv MQTT. Gebruik hiervoor [Eclipse Paho](https://www.eclipse.org/paho). Verstuur een bericht van ControlCenter naar de IoT Foundation op Bluemix. Lees vervolgens het bericht uit via de android applicatie en spreek vervolgens de SDK for Sphere aan. 	
+
+- Lees het huidige batterijpercentage uit van je android toestel en toon het (via MQTT) op het ControlCenter
+
+- Gebruik [Git](https://git-scm.com/downloads) en werk samen op Github, fork het project en 
 
 - Samenwerking Github + TravisCI
