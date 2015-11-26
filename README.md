@@ -72,6 +72,4 @@ Jullie hebben nu een eerste versie van de webapplicatie naar de cloud gebracht. 
 
 - Lees het huidige batterijpercentage uit van je android toestel en toon het (via MQTT) op het ControlCenter
 
-- Gebruik [Git](https://git-scm.com/downloads) en werk samen op Github, fork het project en 
-
-- Samenwerking Github + TravisCI
+- Gebruik [Git](https://git-scm.com/downloads) en werk samen op Github, fork het project en koppel de repository aan [Travis CI](https://travis-ci.org) voor continuous integration.
