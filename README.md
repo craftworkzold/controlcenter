@@ -70,7 +70,7 @@ Jullie hebben nu een eerste versie van de webapplicatie naar de cloud gebracht. 
 
 - Bestuur Ollie via ControlCenter dmv MQTT. Gebruik hiervoor [Eclipse Paho](https://www.eclipse.org/paho). Verstuur een bericht van ControlCenter naar de IoT Foundation op Bluemix. Lees vervolgens het bericht uit via de android applicatie en spreek vervolgens de SDK for Sphere aan. 	
 
-- Lees het huidige batterijpercentage uit van je android toestel en toon het (via MQTT) op het ControlCenter
+- Lees het huidige batterijpercentage uit van je android toestel en toon het (via [MQTT](http://hivemq.com/blog/how-to-get-started-with-mqtt)) op het ControlCenter
 
 - Gebruik [Git](https://git-scm.com/downloads) en werk samen op Github, fork het project en koppel de repository aan [Travis CI](https://travis-ci.org) voor continuous integration.
 
