@@ -1,8 +1,7 @@
 # Hack The Future 2015
-
-*Het is 2277, 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
+> Het is 2277, 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
 echter op de loer om jullie vault aan te vallen. Jullie ontwikkelen ControlCenter, een webapplicatie die het mogelijk maakt om vanop 
-afstand de vault in de gaten te houden en te beschermen.*
+afstand de vault in de gaten te houden en te beschermen.
 
 ![HackTheSFuture](HackTheFuture.png)
 
@@ -69,3 +68,6 @@ Jullie hebben nu een eerste versie van de webapplicatie naar de cloud gebracht. 
 
 - Maak met [Android Studio](http://developer.android.com/sdk/index.html) een android toepassing die om 
 
+- Installeer Git
+
+- Samenwerking Github + TravisCI
