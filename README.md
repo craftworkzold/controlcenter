@@ -40,9 +40,9 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
    
 3. De applicatie geeft aan in de terminal op welke poort hij gestart is.
 
-## Breng ControlCenter naar de cloud.
+## Breng ControlCenter naar de cloud
 1. Maak [een IBM Bluemix-account](https://console.ng.bluemix.net/registration/) aan
-2. Download de [Cloud Foundry CLI]
+2. Download de [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads)
 3. De naam van jullie applicatie moet uniek zijn. Ga daarom naar de `manìfest.yml`file en verander de bij name *myteam* door de naam van jullie team. 
 4. Open terminal en voer volgende commando's uit:
 
@@ -51,7 +51,15 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
    cf login # geef hierna je emailadres en wachtwoord in en selecteer space 'dev'
    cf push
    ```
+5. Ga naar http://htf-controlcenter-*myteam*.eu-gb.mybluemix.net
 
+## Voeg 'Internet Of Things Foundation' service toe
+1. Login op het [Bluemix Dashboard](https://console.eu-gb.bluemix.net)
+2. Ga naar het detail van de applicatie htf-controlcenter-*myteam*
+3. Klik 'Add a service or api' en zoek naar 'Internet Of Things Foundation'
+4. Klik op 'View more', behoudt de default waarden en klik op 'Create'
+5. De applicatie zal vragen om te restagen. Klik 'Restage'. 
+6. Wacht enkele momenten en ga dan terug naar het detail van de applicatie. Je ziet nu dat de service is toegevoegd. Klik op 'show credentials' om de credentials van de service te bekijken.
 
 ## Challenges
 
