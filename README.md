@@ -1,7 +1,7 @@
 # Hack The Future 2015
-> *Het is 2277, 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
-echter op de loer om jullie vault aan te vallen. Jullie ontwikkelen ControlCenter, een webapplicatie die het mogelijk maakt om vanop 
-afstand de vault in de gaten te houden en te beschermen.*
+> *Het is 2277, 3 jaar na de fallout en jullie verlaten de bunker om voorraad te verzamelen. Anderen liggen
+echter op de loer om jullie bunker aan te vallen. Jullie ontwikkelen ControlCenter, een webapplicatie die het mogelijk maakt om vanop 
+afstand de bunker in de gaten te houden en te beschermen.*
 
 ![HackTheSFuture](HackTheFuture.png)
 
@@ -73,3 +73,7 @@ Jullie hebben nu een eerste versie van de webapplicatie naar de cloud gebracht. 
 - Lees het huidige batterijpercentage uit van je android toestel en toon het (via MQTT) op het ControlCenter
 
 - Gebruik [Git](https://git-scm.com/downloads) en werk samen op Github, fork het project en koppel de repository aan [Travis CI](https://travis-ci.org) voor continuous integration.
+
+- Voorzie een responsive [pipboy](http://vignette3.wikia.nocookie.net/fallout/images/7/76/Pip-Boy_3000.jpg/revision/latest?cb=20110712154420) layout voor ControlCenter
+
+- Laat Ollie rood kleuren wanneer er een tweet binnenkomt met #craftworkzalert
