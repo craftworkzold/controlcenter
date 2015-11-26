@@ -1,6 +1,6 @@
 # Hack The Future 2015
 
-*Het is 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
+*Het is 2277, 3 jaar na de fallout en jullie verlaten de vault om voorraad te verzamelen. Anderen liggen
 echter op de loer om jullie vault aan te vallen. Het komt er dus op aan om een systeem uit te werken waardoor jullie de vault vanop afstand kunnen bewaken*
 
 ![HackTheSFuture](HackTheFuture.png)
