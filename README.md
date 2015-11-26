@@ -14,7 +14,7 @@ IOT Foundation | De [IoT Foundation](https://www.ng.bluemix.net/docs/#services/I
 Android App | Jullie ontwerpen een Android applicatie die de berichten via MQTT leest en instructies doorstuurt naar Ollie via de [Android SDK for Sphero](https://github.com/orbotix/Sphero-Android-SDK)
 Ollie | [Ollie](http://www.sphero.com/ollie) is de beschermer van jullie vault. 
 
-## 1. Start de applicatie
+## Start de applicatie
 Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op basis van [Spring Boot](http://projects.spring.io/spring-boot) en één op basis van [ExpressJs](http://expressjs.com). Kies één van beiden en start deze lokaal op. 
 
 ### Gebruik de Java applicatie:
@@ -23,6 +23,7 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
 
    ```sh
    cd controlcenter-java
+   mvn clean install
    mvn spring-boot:run
    ```
 
@@ -62,6 +63,9 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
 6. Wacht enkele momenten en ga dan terug naar het detail van de applicatie. Je ziet nu dat de service is toegevoegd. Klik op 'show credentials' om de credentials van de service te bekijken.
 
 ## Challenges
+Jullie hebben nu een eerste versie van de webapplicatie naar de cloud gebracht. Nu kunnen jullie starten met het uitvoeren van de challenges. Kies zelf welke challenges jullie proberen uit te voeren en in welke volgorde. 
 
-Challenge | Omschrijving
-------------- | -------------
+- Download [Eclipse Mars](http://www.eclipse.org/downloads) en push een wijziging naar Bluemix.
+
+- Maak met [Android Studio](http://developer.android.com/sdk/index.html) een android toepassing die om 
+
