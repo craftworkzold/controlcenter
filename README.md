@@ -18,11 +18,14 @@ Ollie | [Ollie](http://www.sphero.com/ollie) is de beschermer van jullie vault.
 Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op basis van [Spring Boot](http://projects.spring.io/spring-boot) en één op basis van [ExpressJs](http://expressjs.com). Kies één van beiden en start deze lokaal op. 
 
 Gebruik de Java applicatie:
+
 1. Installeer [Apache Maven](https://maven.apache.org/install.html)
+
 2. ```
    cd controlcenter-java
    mvn spring-boot:run
    ```
+   
 3. Ga naar http://localhost:8080
 
 Gebruik de NodeJS applicatie:
