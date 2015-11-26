@@ -21,7 +21,7 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
 1. Installeer [Apache Maven](https://maven.apache.org/install.html)
 2. Open terminal en voer volgende commando's uit:
 
-   ```
+   ```sh
    cd controlcenter-java
    mvn spring-boot:run
    ```
@@ -32,13 +32,25 @@ Om van start te kunnen gaan, hebben we 2 kleine applicaties gemaakt. Eén op bas
 1. Installeer [NodeJS](https://nodejs.org/en/download/)
 2. Open terminal en voer volgende commando's uit:
 
-   ```
+   ```sh
    cd controlcenter-nodejs
    npm install
    npm start
    ```
    
-3. Ga naar http://localhost:3000
+3. De applicatie geeft aan in de terminal op welke poort hij gestart is.
+
+## Breng ControlCenter naar de cloud.
+1. Maak [een IBM Bluemix-account](https://console.ng.bluemix.net/registration/) aan
+2. Download de [Cloud Foundry CLI]
+3. De naam van jullie applicatie moet uniek zijn. Ga daarom naar de `manìfest.yml`file en verander de bij name *myteam* door de naam van jullie team. 
+4. Open terminal en voer volgende commando's uit:
+
+   ```sh
+   cf api https://api.eu-gb.bluemix.net
+   cf login # geef hierna je emailadres en wachtwoord in en selecteer space 'dev'
+   cf push
+   ```
 
 
 ## Challenges
