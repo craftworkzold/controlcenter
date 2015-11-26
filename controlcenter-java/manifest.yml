@@ -3,5 +3,5 @@ applications:
   - name: htf-controlcenter-myteam
     memory: 512MB
     instances: 1
-    path: target/controlcenter.jar
+    path: target/controlcenter.war
     buildpack: https://github.com/cloudfoundry/java-buildpack
